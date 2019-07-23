@@ -144,3 +144,327 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+	
+	display: flex;
+	width:800px;
+	justify-content: space-between;
+    margin-bottom:4%;
+    /*position: fixed;
+    z-index: 9999;*/
+    background-color: white;
+    height:66px;
+	
+
+}
+
+
+header nav {
+	display: flex;
+    margin-top: 50px;
+    width:78%;
+    justify-content: space-between;
+    font-size:14px;
+
+}
+
+header nav a {
+	margin:0 20px;
+	color:black;
+	text-decoration:none;
+	
+}
+
+.top-image  img {
+    margin-bottom:1%;
+    width:800px;
+}
+
+ 
+.middle-content .boxes .box1 {
+    background: teal; 
+}
+
+.middle-content .boxes .box2 {
+    background: gold; 
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue; 
+}
+
+.middle-content .boxes .box4 {
+    background: coral; 
+}
+
+.middle-content .boxes .box5 {
+    background: crimson; 
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen; 
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid; 
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink; 
+}
+
+.middle-content .boxes .box9 {
+    background:indigo; 
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue; 
+}
+
+/* @media query stretch version for index.html */
+
+@media screen and (max-width: 600px) {
+ 
+    .container {
+      /*  background-color: lightblue;*/
+      width:100%;
+      
+      }
+
+      .top-image img {
+        width:100%;
+    }
+      header {
+       /*background-color: red;*/
+        width:100%;
+        height:18%;
+        display:flex;
+       /* flex-direction:column-reverse;  */
+        }
+  
+        header nav {
+      /*	background-color:pink;*/
+          width:40%   ; 
+          flex-direction:column;  
+          margin:0;
+      }
+      footer {
+        width: 100%;
+        height: 18%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         }
+   
+         footer nav {
+       /*	background-color:pink;*/
+           width:40%   ; 
+           flex-direction:column;  
+           margin:0;
+       }
+
+       
+    }
+    @media screen and (min-width:610px) and ( max-width:800px) {
+        .container {
+            /*  background-color: lightblue;*/
+            width:100%;
+            
+            }
+            header {
+             /*background-color: red;*/
+              width:50%;
+              height:18%;
+              display:flex;
+             /* flex-direction:column-reverse;  */
+              }
+        
+              header nav {
+            /*	background-color:pink;*/
+                width:40%   ; 
+                flex-direction:column;  
+                margin:0;
+            }
+            footer {
+              width: 100%;
+              height: 18%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+               }
+         
+               footer nav {
+             /*	background-color:pink;*/
+                 width:40%   ; 
+                 flex-direction:column;  
+                 margin:0;
+             }
+
+             .top-image {
+                width:100%;
+            }
+        
+        }
+    /* Media Quesries Stretch index.html End */
+
+/* CSS code for index.html  End  */
+
+/* CSS code for about.html   starts here */
+
+.container-about-page {
+    width:800px;
+    margin:auto;
+}
+
+.a-top-content {
+  width:98%;
+  margin-left:2%;
+}
+.a-two-column {
+    display:flex;
+    width: 98%;
+    margin-left:1%;
+    justify-content: space-evenly;
+}
+
+.a-block-content {
+    width:370px;
+}
+
+.a-block-content button {
+    background-color: white;
+    border-radius: 6px;
+    border:1px solid black;
+    width:25%;
+    padding:1%;
+}
+
+.a-bottom-content {
+    margin-left:3%;
+}
+
+.img-block {
+    margin-bottom:1%;
+}
+
+hr {
+    border-top: 1px dashed black;
+  }
+
+  /* @media query stretch version for about.html */
+
+  @media screen and (max-width: 600px) {
+ 
+    .container-about-page {
+      /*  background-color: lightblue;*/
+      width:100%;
+      
+      }
+
+      .top-image img {
+        width:100%;
+    }
+      header {
+       /*background-color: red;*/
+        width:100%;
+        height:18%;
+        display:flex;
+       /* flex-direction:column-reverse;  */
+        }
+  
+        header nav {
+      /*	background-color:pink;*/
+          width:40%   ; 
+          flex-direction:column;  
+          margin:0;
+      }
+      footer {
+        width: 100%;
+        height: 18%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         }
+   
+         footer nav {
+       /*	background-color:pink;*/
+           width:40%   ; 
+           flex-direction:column;  
+           margin:0;
+       }
+
+       .a-top-content  {
+        display:flex;
+        flex-wrap:wrap;
+    }
+    }
+    @media screen and (min-width:610px) and ( max-width:800px) {
+        .container-about-page {
+            /*  background-color: lightblue;*/
+            width:100%;
+            }
+            header {
+             /*background-color: red;*/
+              width:50%;
+              height:18%;
+              display:flex;
+             /* flex-direction:column-reverse;  */
+              }
+        
+              header nav {
+            /*	background-color:pink;*/
+                width:40%   ; 
+                flex-direction:column;  
+                margin:0;
+            }
+            footer {
+              width: 100%;
+              height: 18%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+               }
+         
+               footer nav {
+             /*	background-color:pink;*/
+                 width:40%   ; 
+                 flex-direction:column;  
+                 margin:0;
+             }
+
+             .top-image {
+                width:100%;
+            }
+        
+            .a-top-content  {
+                display:flex;
+                flex-wrap:wrap;
+            }
+        }
+    /* Media Quesries Stretch End */
+
+
+  /* CSS Code for about.html End*/
+
+  /*Stretch Animation  start*/
+  @keyframes logoimage {
+    0%   {background-color:red; left:0px; top:0px;}
+    10%  {background-color:yellow; left:40px; top:0px;}
+    20%  {background-color:blue; left:40px; top:80px;}
+    30%  {background-color:green; left:0px; top:80px;}
+    40% {background-color :gold; left:0px; top:0px;}
+    50% {background-color:purple; left:40px; top:0px;}
+    60% {background-color:rgb(0, 81, 128); left:40px; top:80px;}
+    70% {background-color:rgb(128, 73, 0); left:0px; top:80px;}
+    80% {background-color:aqua; left:0px; top:40px;}
+    100% {background-color:silver; left:0px; top:0px;}
+  }
+
+  header .logo {
+    position: relative;
+    animation-name: logoimage;
+    animation-duration: 10s;
+  }
+
+  /* Stretch Animation End */
