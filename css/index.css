@@ -317,6 +317,10 @@ header nav a {
     margin:auto;
 }
 
+.a-middle-content {
+    width:800px;
+    margin:auto; 
+}
 .a-top-content {
   width:98%;
   margin-left:2%;
@@ -341,7 +345,8 @@ header nav a {
 }
 
 .a-bottom-content {
-    margin-left:3%;
+    width:98%;
+    margin-left:2%;
 }
 
 .img-block {
@@ -352,9 +357,14 @@ hr {
     border-top: 1px dashed black;
   }
 
+  .top-image  img {
+    margin-bottom:1%;
+    width:800px;
+}
+
   /* @media query stretch version for about.html */
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
  
     .container-about-page {
       /*  background-color: lightblue;*/
@@ -367,7 +377,7 @@ hr {
     }
       header {
        /*background-color: red;*/
-        width:100%;
+        width:85%;
         height:18%;
         display:flex;
        /* flex-direction:column-reverse;  */
@@ -397,16 +407,35 @@ hr {
        .a-top-content  {
         display:flex;
         flex-wrap:wrap;
+        width:90%;
     }
+    .a-bottom-content  {
+        display:flex;
+        flex-wrap:wrap;
+        width:90%;
     }
-    @media screen and (min-width:610px) and ( max-width:800px) {
+
+    .a-two-column {
+        display:block;
+    
+    }
+    .a-block-content {
+        width:90%;
+    }
+    .a-middle-content {
+        width:100%;
+        margin:auto; 
+    }
+
+    }
+    @media screen and (min-width:710px) and ( max-width:1024px) {
         .container-about-page {
             /*  background-color: lightblue;*/
             width:100%;
             }
             header {
              /*background-color: red;*/
-              width:50%;
+              width:70%;
               height:18%;
               display:flex;
              /* flex-direction:column-reverse;  */
@@ -432,14 +461,29 @@ hr {
                  flex-direction:column;  
                  margin:0;
              }
-
-             .top-image {
+            .top-image img {
                 width:100%;
             }
-        
+             
+            .a-middle-content {
+                width:100%;
+                margin-left:25%; 
+            }
             .a-top-content  {
                 display:flex;
                 flex-wrap:wrap;
+                width:90%;
+            }
+
+            .a-bottom-content  {
+                display:flex;
+                flex-wrap:wrap;
+                width:90%;
+            }
+            .a-two-column {
+                display:block;
+                margin:auto;
+            
             }
         }
     /* Media Quesries Stretch End */
